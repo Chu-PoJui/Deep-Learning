@@ -31,10 +31,11 @@ Model training environment: **Google Colab Pro+ (NVIDIA A100)**
 
 ## 📂 File Structure
 ```
-LAB2/  
- ├─ report.pdf # Experiment report
- ├─ code.py # Implementation code  
- └─ README.md # This file  
+Deep-Learning/
+ ├─ LAB2/
+ │   ├─ report.pdf
+ │   ├─ code.py
+ │   └─ README.md
 ```
 
 ---
