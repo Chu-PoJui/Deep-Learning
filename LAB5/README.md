@@ -95,7 +95,7 @@ python code/test_model_task3.py --model task3_pong800k.pt --episodes 10 --output
 ---
 
 ## 🎥 Demo  
-- [Demo Video (5–6 min)](./demo.mp4)  
+- [Demo Video (5–6 min)](./LAB5.mp4)  
   Includes code walkthrough and evaluation runs for Tasks 1–3.  
 
 ---
