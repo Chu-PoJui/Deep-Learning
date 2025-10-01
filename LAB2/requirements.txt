@@ -1,0 +1,10 @@
+模型訓練環境: colab(Colab Pro+ A100)
+
+套件                               version
+torch                              2.6.0+cu124
+torchvision                        0.21.0+cu124
+numpy                              2.0.2
+pandas                             2.2.2
+pillow                             11.1.0
+tqdm                               4.67.1
+matplotlib                         3.10.0
