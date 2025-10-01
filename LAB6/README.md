@@ -104,6 +104,13 @@ Denoising Process:
 
 (Figures and detailed discussion are in report.pdf
 )
+```
+
+---
+
+### 3. Results 區塊加圖片連結  
+你現在寫了「Figures and detailed discussion are in report.pdf」，但 GitHub README 可以直接放圖，會更直觀。像這樣：  
+
 ```markdown
 ## 📊 Results
 
@@ -120,3 +127,4 @@ Denoising Process:
   <img src="./file/denoise_process.png" width="600">  
 
 *(More figures and discussion are in [report.pdf](./report.pdf))*
+
