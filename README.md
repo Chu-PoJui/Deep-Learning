@@ -1,16 +1,4 @@
-# Deep-Learning
-
-* Instructors: Profs. Yong-Sheng Chen, Wen-Hsiao Peng, Ping-Chun Hsieh
-* Course Level: Graduate
-
-## 作業說明
-* Lab 2: Binary Semantic Segmentation  
-
-* Lab 5: Value-Based Reinforcement Learning  
-
-* Lab 6: Generative Models
-
-* # Deep Learning — NYCU (Spring 2025, TAICA)
+# Deep Learning — NYCU (Spring 2025, TAICA)
 
 Graduate-level course assignments for **Deep Learning** at National Yang Ming Chiao Tung University (NYCU),  
 under the Taiwan AI College Alliance (TAICA).
