@@ -32,24 +32,17 @@ This project implements and compares **vanilla DQN** and several **enhanced DQN 
 ## 📂 File Structure
 
 ```
-LAB5_11028141_POJUI/
+LAB5/
 ├─ report.pdf # Technical report
+├─ DLP_Lab_5_Slides-2.pdf # Presentation slides
+├─ Spring2025_DLP_RL_HW1-3.pdf # Homework description
+├─ README.md # This file
+└─ src/
+├─ dqn.py # Main DQN implementation
 ├─ demo.mp4 # 5–6 min demo video
-├─ code/
-│ ├─ dqn.py # Main implementation
-│ ├─ task1_cartpole.py # Training CartPole
-│ ├─ task2_pong.py # Training Pong
-│ ├─ task3_enhanced.py # Enhanced DQN
-│ ├─ test_model_task1.py # Evaluation script (CartPole)
-│ ├─ test_model_task2.py # Evaluation script (Pong vanilla)
-│ └─ test_model_task3.py # Evaluation script (Pong enhanced)
-├─ task1_cartpole.pt # Best CartPole model
-├─ task2_pong.pt # Best Pong vanilla model
-├─ task3_pong200k.pt # Enhanced DQN snapshot @200k
-├─ task3_pong400k.pt
-├─ task3_pong600k.pt
-├─ task3_pong800k.pt
-└─ task3_pong1M.pt
+├─ test_model_task1.py # Evaluation script (CartPole)
+├─ test_model_task2.py # Evaluation script (Pong vanilla)
+└─ test_model_task3.py # Evaluation script (Pong enhanced)
 ```
 
 
