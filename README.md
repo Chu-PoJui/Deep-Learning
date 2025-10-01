@@ -1,2 +1,4 @@
 # Deep-Learning
-Deep Learning at NYCU (Spring 2025, TAICA) — Graduate Course
+
+Instructors: Profs. Yong-Sheng Chen, Wen-Hsiao Peng, Ping-Chun Hsieh
+Course Level: Graduate
