@@ -32,8 +32,6 @@ Training environment: **Google Colab Pro+ (NVIDIA A100)**
 ## 📂 File Structure
 
 ```
-
-
 Lab6/
   ├─ report.pdf # Experiment report
   ├─ requirements.txt # Dependencies
