@@ -68,7 +68,7 @@ Lab6/
 
 - **report.pdf** — Full experiment report with methodology, results, and discussion.  
 - **src/** — Main implementation codes (training, testing, generation, evaluation).  
-- **file/** — Provided in `file.zip` (from e3 / NTU COOL):  
+- **file/** — Provided in `file.zip` (downloadable from [Google Drive](https://drive.google.com/file/d/1Y-N1O0qltVtYMq95CAzJ1s-y-NM0qd_O/view?usp=sharing)):  
   - `train.json`, `test.json`, `new_test.json` — Dataset splits  
   - `objects.json` — Object-label mapping  
   - `evaluator.py`, `eval_all.py` — Pre-trained ResNet18 evaluator scripts  
@@ -78,6 +78,7 @@ Lab6/
 - **iclevr/** — Extra dataset (`dataset.txt`) provided separately.  
 
 ---
+
 
 
 
