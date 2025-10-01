@@ -62,6 +62,20 @@ Lab6/
    └─ iclevr/
       └─ dataset.txt
 ```
+---
+
+## 📦 File Descriptions  
+
+- **report.pdf** — Full experiment report with methodology, results, and discussion.  
+- **src/** — Main implementation codes (training, testing, generation, evaluation).  
+- **file/** — Provided in `file.zip` (from e3 / NTU COOL):  
+  - `train.json`, `test.json`, `new_test.json` — Dataset splits  
+  - `objects.json` — Object-label mapping  
+  - `evaluator.py`, `eval_all.py` — Pre-trained ResNet18 evaluator scripts  
+  - `ddpm.py` — Core DDPM model  
+  - `all_64_grid.png`, `gen_test_grid.png`, `gen_new_test_grid.png`, `denoise_process.png` — Generated results & denoising visualization  
+  - `readme.txt` — Dataset details  
+- **iclevr/** — Extra dataset (`dataset.txt`) provided separately.  
 
 ---
 
