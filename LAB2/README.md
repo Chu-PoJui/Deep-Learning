@@ -40,5 +40,5 @@ hw2/
 ---
 
 ## 📄 Report
-Full experiment report: [report.pdf](hw2/report.pdf)
+Full experiment report: [report.pdf](LAB2/report.pdf)
 
