@@ -30,11 +30,12 @@ Model training environment: **Google Colab Pro+ (NVIDIA A100)**
 ---
 
 ## 📂 File Structure
+```
 hw2/  
  ├─  
  ├─ code.py # Implementation code  
  └─ README.md # This file  
-
+```
 ---
 
 ## 📄 Report
