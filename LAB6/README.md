@@ -30,41 +30,58 @@ Training environment: **Google Colab Pro+ (NVIDIA A100)**
 ---
 
 ## 📂 File Structure
-ˋˋˋ
+
+```
+
+
 Lab6/
-├─ report.pdf # Experiment report
-├─ requirements.txt # Dependencies
-├─ src/ # Source code
-│ ├─ train.py # Training script
-│ ├─ inference.py # Inference and denoising
-│ ├─ evaluate.py # Evaluation function
-│ ├─ models/ # Model definitions
-│ └─ utils.py # Helper functions
-├─ dataset/ # Provided data
-│ ├─ train.json
-│ ├─ test.json
-│ ├─ new_test.json
-│ ├─ object.json
-│ ├─ evaluator.py
-│ └─ checkpoint.pth
-└─ images/ # Generated images
-├─ test/ # Results for test.json
-└─ new_test/ # Results for new_test.json
-ˋˋˋ
+  ├─ report.pdf # Experiment report
+  ├─ requirements.txt # Dependencies
+  ├─ src/ # Source code
+  │ ├─ train.py # Training script
+  │ ├─ inference.py # Inference and denoising
+  │ ├─ evaluate.py # Evaluation function
+  │ ├─ models/ # Model definitions
+  │ └─ utils.py # Helper functions
+  ├─ dataset/ # Provided data
+  │ ├─ train.json
+  │ ├─ test.json
+  │ ├─ new_test.json
+  │ ├─ object.json
+  │ ├─ evaluator.py
+  │ └─ checkpoint.pth
+  └─ images/ # Generated images
+  ├─ test/ # Results for test.json
+  └─ new_test/ # Results for new_test.json
+```
 
 ---
+
+
 
 ## 🚀 How to Run
 
 ### Training
 ```bash
 python src/train.py --epochs 200 --batch_size 64 --lr 1e-4
+```
+
+---
 
 Inference
+```bash
+
 python src/inference.py --model checkpoint.pth --labels "red sphere, cyan cylinder, cyan cube"
+```
+
+---
 
 Evaluation
+```bash
 python src/evaluate.py --images images/test --labels dataset/test.json
+```
+
+---
 
 ##📊 Results
 
