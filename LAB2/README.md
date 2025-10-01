@@ -41,5 +41,5 @@ Deep-Learning/
 ---
 
 ## 📄 Report
-Full experiment report: [report.pdf](report.pdf)
+Full experiment report: [Open report (PDF)](report.pdf)
 
