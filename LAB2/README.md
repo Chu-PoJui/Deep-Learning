@@ -39,5 +39,7 @@ Deep-Learning/
 ```
 
 ---
-[Open / Download report (PDF)](./report.pdf?raw=1)
+
+## 📄 Report
+Full experiment report: [report.pdf](report.pdf)
 
