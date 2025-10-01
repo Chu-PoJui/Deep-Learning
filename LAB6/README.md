@@ -76,15 +76,14 @@ python src/train.py --epochs 200 --batch_size 64 --lr 1e-4
 
 ---
 
-Inference
+### Inference
 ```bash
-
 python src/inference.py --model checkpoint.pth --labels "red sphere, cyan cylinder, cyan cube"
 ```
 
 ---
 
-Evaluation
+### Evaluation
 ```bash
 python src/evaluate.py --images images/test --labels dataset/test.json
 ```
@@ -105,3 +104,19 @@ Denoising Process:
 
 (Figures and detailed discussion are in report.pdf
 )
+```markdown
+## 📊 Results
+
+- **Synthetic Image Grids**  
+  - Test set  
+    <img src="./file/gen_test_grid.png" width="400">  
+  - New test set  
+    <img src="./file/gen_new_test_grid.png" width="400">  
+
+- **All 64 samples**  
+  <img src="./file/all_64_grid.png" width="600">  
+
+- **Denoising Process**  
+  <img src="./file/denoise_process.png" width="600">  
+
+*(More figures and discussion are in [report.pdf](./report.pdf))*
