@@ -83,7 +83,7 @@ python src/evaluate.py --images images/test --labels dataset/test.json
 
 ---
 
-##📊 Results
+## 📊 Results
 
 Synthetic Image Grids:
 
