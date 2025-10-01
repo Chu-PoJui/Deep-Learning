@@ -6,15 +6,21 @@ This project implements and compares **vanilla DQN** and several **enhanced DQN 
 ---
 
 ## 📌 Overview
-- **Task 1**: Vanilla DQN on **CartPole-v1**  
-- **Task 2**: Vanilla DQN on **Pong-v5** (visual input)  
-- **Task 3**: Enhanced DQN on **Pong-v5**  
-  - Double DQN  
-  - PER + Multi-step return (n=5)  
-  - Dueling DQN architecture  
-  - Cosine learning rate scheduling  
+- **Task 1**: Vanilla DQN on [CartPole-v1](https://gymnasium.farama.org/environments/classic_control/cart_pole/)  
+  Goal: Implement a vanilla DQN using PyTorch to solve CartPole.  
+
+- **Task 2**: Vanilla DQN on [Pong-v5](https://ale.farama.org/index.html) (visual input)  
+  Goal: Extend DQN to high-dimensional Atari visual input (Pong-v5).  
+
+- **Task 3**: Enhanced DQN on [Pong-v5](https://ale.farama.org/index.html)  
+  - Goal: Improve sample efficiency by adding  
+    - Double DQN  
+    - PER + Multi-step return (n=5)  
+    - Dueling DQN architecture  
+    - Cosine learning rate scheduling  
 
 ---
+
 
 ## ⚙️ Environment
 
