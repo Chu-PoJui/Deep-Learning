@@ -33,24 +33,34 @@ Training environment: **Google Colab Pro+ (NVIDIA A100)**
 
 ```
 Lab6/
-  ├─ report.pdf # Experiment report
-  ├─ requirements.txt # Dependencies
-  ├─ src/ # Source code
-  │ ├─ train.py # Training script
-  │ ├─ inference.py # Inference and denoising
-  │ ├─ evaluate.py # Evaluation function
-  │ ├─ models/ # Model definitions
-  │ └─ utils.py # Helper functions
-  ├─ dataset/ # Provided data
-  │ ├─ train.json
-  │ ├─ test.json
-  │ ├─ new_test.json
-  │ ├─ object.json
-  │ ├─ evaluator.py
-  │ └─ checkpoint.pth
-  └─ images/ # Generated images
-  ├─ test/ # Results for test.json
-  └─ new_test/ # Results for new_test.json
+   ├─ report.pdf
+   ├─ src/
+   │  ├─ dataset.py
+   │  ├─ evaluator.py
+   │  ├─ generate_process.py
+   │  ├─ test.py
+   │  ├─ train.py
+   │  └─ images/
+   │      ├─ test/
+   │      └─ new_test/
+   ├─ file/
+   │  ├─ all_64_grid.png
+   │  ├─ denoise_process.png
+   │  ├─ gen_test_grid.png
+   │  ├─ gen_new_test_grid.png
+   │  ├─ dataset.py
+   │  ├─ ddpm.py
+   │  ├─ evaluator.py
+   │  ├─ eval_all.py
+   │  ├─ train.py
+   │  ├─ test.py
+   │  ├─ objects.json
+   │  ├─ train.json
+   │  ├─ test.json
+   │  ├─ new_test.json
+   │  └─ README.md
+   └─ iclevr/
+      └─ dataset.txt
 ```
 
 ---
