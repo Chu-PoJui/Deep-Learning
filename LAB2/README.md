@@ -31,7 +31,7 @@ Model training environment: **Google Colab Pro+ (NVIDIA A100)**
 
 ## 📂 File Structure
 hw2/
-├─ report.pdf # Experiment report
-├─ code.py # Implementation code
-└─ README.md # This file
+ ├─ report.pdf        # Experiment report
+ ├─ code.py           # Implementation code
+ └─ README.md         # This file
 
