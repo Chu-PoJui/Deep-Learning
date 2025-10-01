@@ -36,7 +36,9 @@ hw2/
  ├─ code.py # Implementation code  
  └─ README.md # This file  
 ```
+
 ---
 
 ## 📄 Report
-Full experiment report: [report.pdf](report.pdf)
+Full experiment report: [report.pdf](hw2/report.pdf)
+
