@@ -3,7 +3,6 @@ Deep Learning @ NYCU (Spring 2025, TAICA)
 
 This project implements a **conditional Denoising Diffusion Probabilistic Model (DDPM)** to generate synthetic images according to **multi-label conditions** (e.g., *“red sphere”*, *“yellow cube”*, *“gray cylinder”*).
 
----
 
 ## 📌 Overview
 - **Task**: Conditional image generation using DDPM  
