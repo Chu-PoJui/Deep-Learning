@@ -115,6 +115,6 @@ python src/evaluate.py --images images/test --labels dataset/test.json
 - **Denoising Process**  
   <img src="./file/denoise_process.png" width="600">  
 
-*(More figures and discussion are in [report.pdf](./report.pdf))*
+*( More figures and discussion are in [report.pdf]( ./report.pdf ) )*
 
 
