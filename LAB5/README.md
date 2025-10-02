@@ -91,6 +91,7 @@ python code/test_model_task3.py --model task3_pong800k.pt --episodes 10 --output
 | Vanilla DQN (Task 2)    | ~6.5M        | 1×       |
 | Enhanced DQN (Task 3)   | ~0.735M      | ↓ ~89%   |
 
+*(Full experiment report and discussion are in [report.pdf](./report.pdf))*
 ---
 
 ## 🎥 Demo  
