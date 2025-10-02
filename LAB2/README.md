@@ -58,8 +58,8 @@ Full experiment report: [report.pdf](report.pdf)
 ### Picture 2 — Model Predictions
 | **Result on UNet** | **Result on ResNet34_UNet** |
 |--------------------|------------------------------|
-| <img src="./result/reslult_unet_good.png" width="300"> | <img src="./result/reslult_resnet34_unet_bad.png" width="300"> |
 | <img src="./result/reslult_unet_bad.png" width="300"> | <img src="./result/reslult_resnet34_unet_good.png" width="300"> |
+| <img src="./result/reslult_unet_good.png" width="300"> | <img src="./result/reslult_resnet34_unet_bad.png" width="300"> |
 
 *Figure: Comparison between UNet and ResNet34_UNet predictions, based on Picture 1 inputs.*
 
