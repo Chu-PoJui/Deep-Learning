@@ -50,8 +50,11 @@ Full experiment report: [report.pdf](report.pdf)
 
 | **Result on UNet** | **Result on ResNet34_UNet** |
 |--------------------|------------------------------|
-| <img src="./result/reslult_unet_good.png" width="300"> | <img src="./result/reslult_resnet34_unet_bad.png" width="300"> |
-| <img src="./result/reslult_unet_bad.png" width="300"> | <img src="./result/reslult_resnet34_unet_good.png" width="300"> |
+| <img src="./result/reslult_unet_good.png" width="300"><br>*Picture 1a* | <img src="./result/reslult_resnet34_unet_bad.png" width="300"><br>*Picture 1b* |
+| <img src="./result/reslult_unet_bad.png" width="300"><br>*Picture 2a* | <img src="./result/reslult_resnet34_unet_good.png" width="300"><br>*Picture 2b* |
 
-*Figure: Inference results comparison between UNet and ResNet34+UNet.*
+*Figure: Inference results comparison between UNet and ResNet34+UNet.*  
+- **Picture 1**: Good and failure cases for UNet vs ResNet34+UNet.  
+- **Picture 2**: Additional comparison of difficult cases.
+
 
