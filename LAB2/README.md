@@ -1,9 +1,9 @@
 # Lab 2 — Binary Semantic Segmentation
+---
 Deep Learning @ NYCU (Spring 2025, TAICA)
 
 This project implements **binary semantic segmentation** on the **Oxford-IIIT Pet Dataset**, focusing on distinguishing pets (foreground) from background at the pixel level.
 
----
 
 ## 📌 Overview
 - **Task**: Binary semantic segmentation (foreground vs background)
@@ -12,7 +12,6 @@ This project implements **binary semantic segmentation** on the **Oxford-IIIT Pe
   1. UNet (from scratch)  
   2. ResNet34 + UNet (ResNet34 encoder, UNet decoder)  
 
----
 
 ## ⚙️ Environment
 Model training environment: **Google Colab Pro+ (NVIDIA A100)**  
@@ -27,7 +26,6 @@ Model training environment: **Google Colab Pro+ (NVIDIA A100)**
 | tqdm          | 4.67.1    |
 | matplotlib    | 3.10.0    |
 
----
 
 ## 📂 File Structure
 ```
@@ -39,7 +37,6 @@ Deep-Learning/
 ```
 
 
----
 
 ## 📊 Inference Results Comparison
 
@@ -48,7 +45,6 @@ Deep-Learning/
 |------------------|------------------|
 | <img src="./result/Sphynx_67.png" width="300"> | <img src="./result/dog.png" width="300"> |
 
----
 
 ### Picture 2 — Model Predictions
 | **Result on UNet** | **Result on ResNet34_UNet** |
@@ -59,7 +55,6 @@ Deep-Learning/
 *Figure: Comparison between UNet and ResNet34_UNet predictions, based on Picture 1 inputs.*
 
 
----
 ## 📄 Report 
 Full experiment report and discussion are in: [report.pdf](report.pdf)
 
