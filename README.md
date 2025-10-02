@@ -3,14 +3,12 @@
 Graduate-level course assignments for **Deep Learning** at National Yang Ming Chiao Tung University (NYCU),  
 under the Taiwan AI College Alliance (TAICA).
 
----
 
 ## 👨‍🏫 Course Information
 - **Instructors**: Profs. Yong-Sheng Chen, Wen-Hsiao Peng, Ping-Chun Hsieh  
 - **Course Level**: Graduate  
 - **Semester**: Spring 2025  
 
----
 
 ## 🎯 Course Topics
 The course covers fundamental and advanced topics in deep learning, including:
