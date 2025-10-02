@@ -58,6 +58,9 @@ Deep-Learning/
 
 *Figure: Comparison between UNet and ResNet34_UNet predictions, based on Picture 1 inputs.*
 
-*(Full experiment report and discussion are in [report.pdf](./report.pdf))*
+
+--- 
+## 📄 Report 
+Full experiment report and discussion are in: [report.pdf](report.pdf)
 
 
