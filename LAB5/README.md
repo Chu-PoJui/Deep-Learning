@@ -32,6 +32,7 @@ This project implements and compares **vanilla DQN** and several **enhanced DQN 
 | wandb         | latest    |
 
 
+
 ## 📂 File Structure
 
 ```
@@ -47,6 +48,7 @@ LAB5/
 ├─ test_model_task2.py # Evaluation script (Pong vanilla)
 └─ test_model_task3.py # Evaluation script (Pong enhanced)
 ```
+
 
 
 ## 🚀 How to Run
