@@ -48,13 +48,20 @@ Full experiment report: [report.pdf](report.pdf)
 
 ## 📊 Inference Results Comparison
 
+### Picture 1 — Original Images
+| Original Image 1 | Original Image 2 |
+|------------------|------------------|
+| <img src="./result/Sphynx_67.png" width="300"> | <img src="./result/dog.png" width="300"> |
+
+---
+
+### Picture 2 — Model Predictions
 | **Result on UNet** | **Result on ResNet34_UNet** |
 |--------------------|------------------------------|
-| <img src="./result/reslult_unet_good.png" width="300"><br>*Picture 1a* | <img src="./result/reslult_resnet34_unet_bad.png" width="300"><br>*Picture 1b* |
-| <img src="./result/reslult_unet_bad.png" width="300"><br>*Picture 2a* | <img src="./result/reslult_resnet34_unet_good.png" width="300"><br>*Picture 2b* |
+| <img src="./result/reslult_unet_good.png" width="300"> | <img src="./result/reslult_resnet34_unet_bad.png" width="300"> |
+| <img src="./result/reslult_unet_bad.png" width="300"> | <img src="./result/reslult_resnet34_unet_good.png" width="300"> |
 
-*Figure: Inference results comparison between UNet and ResNet34+UNet.*  
-- **Picture 1**: Good and failure cases for UNet vs ResNet34+UNet.  
-- **Picture 2**: Additional comparison of difficult cases.
+*Figure: Comparison between UNet and ResNet34_UNet predictions, based on Picture 1 inputs.*
+
 
 
