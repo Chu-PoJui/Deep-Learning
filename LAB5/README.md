@@ -3,7 +3,6 @@ Deep Learning @ NYCU (Spring 2025, TAICA)
 
 This project implements and compares **vanilla DQN** and several **enhanced DQN variants** on classic control and Atari environments. The goal is to study how Double DQN, Prioritized Experience Replay (PER), Multi-Step Return, and Dueling Networks affect **sample efficiency** and **final performance**.
 
----
 
 ## 📌 Overview
 - **Task 1**: Vanilla DQN on [CartPole-v1](https://gymnasium.farama.org/environments/classic_control/cart_pole/)  
@@ -19,7 +18,6 @@ This project implements and compares **vanilla DQN** and several **enhanced DQN 
     - Dueling DQN architecture  
     - Cosine learning rate scheduling  
 
----
 
 
 ## ⚙️ Environment
@@ -33,7 +31,6 @@ This project implements and compares **vanilla DQN** and several **enhanced DQN 
 | opencv-python | latest    |
 | wandb         | latest    |
 
----
 
 ## 📂 File Structure
 
@@ -51,8 +48,6 @@ LAB5/
 └─ test_model_task3.py # Evaluation script (Pong enhanced)
 ```
 
-
----
 
 ## 🚀 How to Run
 
@@ -76,7 +71,6 @@ python code/task3_enhanced.py --steps 1000000
 python code/test_model_task3.py --model task3_pong800k.pt --episodes 10 --output eval_videos_task3
 ```
 
----
 
 ## 📊 Results
 
@@ -93,13 +87,13 @@ python code/test_model_task3.py --model task3_pong800k.pt --episodes 10 --output
 
 *(Full experiment report and discussion are in [report.pdf](./report.pdf))*
 
----
+
 
 ## 🎥 Demo  
 - [Demo Video (5–6 min)](./src/LAB5.mp4)  
   Includes code walkthrough and evaluation runs for Tasks 1–3.  
 
----
+
 
 ## 📑 References
 - Mnih et al., *Human-level control through deep reinforcement learning*, Nature 2015  
