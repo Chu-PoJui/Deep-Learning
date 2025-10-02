@@ -14,7 +14,6 @@ This project implements a **conditional Denoising Diffusion Probabilistic Model 
   3. Evaluate generated images with the pre-trained ResNet18 evaluator  
   4. Show results: image grids & denoising process  
 
----
 
 ## ⚙️ Environment
 Training environment: **Google Colab Pro+ (NVIDIA A100)**  
@@ -27,7 +26,6 @@ Training environment: **Google Colab Pro+ (NVIDIA A100)**
 | matplotlib    | ≥ 3.10.0  |
 | tqdm          | ≥ 4.67.0  |
 
----
 
 ## 📂 File Structure
 
@@ -62,7 +60,7 @@ Lab6/
    └─ iclevr/
       └─ dataset.txt
 ```
----
+
 
 ## 📦 File Descriptions  
 
@@ -77,7 +75,7 @@ Lab6/
   - `readme.txt` — Dataset details  
 - **iclevr/** — Extra dataset (`dataset.txt`) provided separately.  
 
----
+
 
 
 
@@ -89,21 +87,20 @@ Lab6/
 python src/train.py --epochs 200 --batch_size 64 --lr 1e-4
 ```
 
----
 
 ### Inference
 ```bash
 python src/inference.py --model checkpoint.pth --labels "red sphere, cyan cylinder, cyan cube"
 ```
 
----
+
 
 ### Evaluation
 ```bash
 python src/evaluate.py --images images/test --labels dataset/test.json
 ```
 
----
+
 
 ## 📊 Results
 
