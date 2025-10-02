@@ -43,3 +43,15 @@ Deep-Learning/
 ## 📄 Report
 Full experiment report: [report.pdf](report.pdf)
 
+
+---
+
+## 📊 Inference Results Comparison
+
+| **Result on UNet** | **Result on ResNet34_UNet** |
+|--------------------|------------------------------|
+| <img src="./reslult_resnet34_unet_good.png" width="300"> | <img src="./reslult_resnet34_unet_bad.png" width="300"> |
+| <img src="./reslult_unet_bad.png" width="300"> | <img src="./reslult_resnet34_unet_good.png" width="300"> |
+
+*Figure: Inference results comparison between UNet and ResNet34+UNet.*
+
