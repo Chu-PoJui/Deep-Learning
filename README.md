@@ -17,7 +17,6 @@ The course covers fundamental and advanced topics in deep learning, including:
 - Reinforcement Learning (DQN and its variants)  
 - Applications in computer vision and beyond  
 
----
 
 ## 📝 Assignments
 
@@ -30,7 +29,6 @@ The course covers fundamental and advanced topics in deep learning, including:
 - **[Lab 6 — Generative Models](./LAB6/README.md)**  
   Implement conditional DDPM for image generation with multi-label conditions.  
 
----
 
 ## ⚙️ Environment
 - Python ≥ 3.8  
@@ -39,7 +37,6 @@ The course covers fundamental and advanced topics in deep learning, including:
 
 Each lab includes its own `requirements.txt` or environment notes.  
 
----
 
 ## 📄 License
 This repository is for **educational purposes only** (NYCU Deep Learning Spring 2025).  
